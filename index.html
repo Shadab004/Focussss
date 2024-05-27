@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus-On-Today</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+       <!-- heading -->
+        <h1 class="title">Focus On <span>Today</span></h1>
+        <!-- main conatiner -->
+        <div class="app-container">
+            <h2 class="subtitle"><span>Today</span> 
+                <img class="sun-icon" src="images/sun.svg" alt="sun image">
+            </h2>
+            
+            <!-- progress bar with qoutes -->
+            <p class="progress-label"></p>
+            <div class="progress-bar">
+                <div class="progress-value">
+                    <span></span>
+                </div>
+                <p class="error-label">Please set all the three Goals!</p>
+            </div>
+            <div class="goal-container ">
+                <div class="custom-checkbox "><img class="check-icon" src="images/check-icon.svg" alt=""></div>
+                <input id="first" class="goal-input" type="text" placeholder="Add Your Goal here!">
+            </div>
+
+            <div class="goal-container ">
+                <div class="custom-checkbox"><img class="check-icon" src="images/check-icon.svg" alt=""></div>
+                <input id="second" class="goal-input" type="text" placeholder="Add Your Goal here!">
+            </div>
+
+            <div class="goal-container ">
+                <div class="custom-checkbox"><img class="check-icon" src="images/check-icon.svg" alt=""></div>
+                <input id="third" class="goal-input" type="text" placeholder="Add Your Goal here!">
+            </div>
+            <div class="goal-container ">
+                <div class="custom-checkbox"><img class="check-icon" src="images/check-icon.svg" alt=""></div>
+                <input id="fourth" class="goal-input" type="text" placeholder="Add Your Goal here!">
+            </div>
+            <p class="quote">"Move one step ahead, today!"</p>
+            <p class="made-with">Made with <span>&hearts;</span>  by Shadab Saghir</p>
+
+            <!-- goals cards -->
+        </div>
+    </main>
+</body>
+</html>
